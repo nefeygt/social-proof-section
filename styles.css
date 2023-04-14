@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+}
+.container {
+    width: 1440px;
+    margin: auto;
+    padding-top: 135px;
+}
+.top {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.upperSide > div {
+    width: 50%;
+}
+.upperSide {
+    display: flex;
+    justify-content: space-between;
+}
+.upperSideLeft {
+    width: 30%;
+}
+.mainHeader {
+    color: hsl(300, 43%, 22%);
+    font-size: 4.5rem;
+    margin-bottom: 30px;
+    width: 75%;
+}
+.desc {
+    color:  hsl(303, 10%, 53%);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: 80%;
+}
+.upperSideRight {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.rateElement {
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+    color:hsl(300, 43%, 22%);
+    padding: 30px 40px;
+    width: 75%;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.rateElement:nth-of-type(2) {
+    margin-left: 70px;
+}
+.rateElement:nth-of-type(3) {
+    margin-left: 140px;
+}
+.stars {
+    background-image: url(images/icon-star.svg);
+    background-repeat: repeat-x;
+    width: 85px;
+    height: 20px;
+}
+.lowerSide {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.person {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    max-height: 310px;
+}
+.person1 {
+    width: 32%;
+}
+.person2 {
+    width: 32%;
+    margin-top: 30px;
+}
+.person3 {
+    width: 32%;
+    margin-top: 60px;
+}
+.profile {
+    display: flex;
+    margin: 60px 0px 20px 40px;
+    gap: 25px;
+}
+.profileP {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+}
+.person.person1 .profileP {
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/image-colton.jpg);
+}
+.person.person2 .profileP {
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/image-irene.jpg);
+}
+.person.person3 .profileP {
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/image-anne.jpg);
+}
+.name {
+    color: hsl(300, 24%, 96%);
+    font-size: 1.4rem;
+}
+.verified {
+    margin-top: 5px;
+    color: hsl(303, 10%, 53%);
+    font-size: 1.3rem;
+}
+.comment {
+    margin: 32px;
+    margin-bottom: 60px;
+}
+.review {
+    color: hsl(300, 24%, 96%);
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
